@@ -46,9 +46,20 @@ OmShanthi                                                                       
 
 *   **The popularity of the Angular framework is considerably reflected in its broad support of tooling**    
 
-*   
- 
+*   **The architecture of an Angular application is based on a hierarchical representation of components**
 
+*   **Components are the fundamental building blocks of an Angular application.** They represent and control a particular portion of a web page called the view
+
+*   Some examples of components are as follows:
+
+    *   A list of customers
+    *   A list of claims
+ 
+*   Components of an Angular application can be logically organized as a tree:
+
+*   An Angular application typically has one main component, called AppComponent, by convention. 
+
+*   Each component in the tree can communicate and interact with its siblings using an application programming interface defined by each one.
 
 ## References
 
