@@ -119,7 +119,7 @@ OmShanthi                                                                       
                        
       *    To verify the installation has been successful, run the below command 
                                                     
-      *    ng  --version
+      *    ng  version
       
 
 *   Installation of Http-server
@@ -139,10 +139,19 @@ OmShanthi                                                                       
 
       *    Microsoft visual studio code
       *    Sublime text
-      *    Webstorm [form Intellij]
+      *    WebStorm [form Intellij]
       *    Atom      
                     
-         
+
+*    Below are Angular CLI options every developer should be aware of
+
+       *   **serve:**       Build and serve an Angular application.
+       *   **build:**       Build an Angular application.
+       *   **test:**        Run the unit tests of an Angular application
+       *   **generate:**    Generate a new Angular artifact, such as a component or module.
+       *   **add:**         Install a third-party library that is compatible with the Angular framework.
+       *   **new:**         Create a new Angular application.
+       *   **help:**        If you want to view all the available commands              
               
 
 
