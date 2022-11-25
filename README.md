@@ -30,12 +30,12 @@ OmShanthi                                                                       
 
 ## Angular Basics
 
-*   Angular is a **platform and framework** for building single page applications using HTML and TypeScript.
+*   **Angular is a platform and framework for building single page applications using HTML and TypeScript**
 
 *   Angular can run on different platforms apart from web, such as Desktop and Mobile
 
-*   Angular applications are written in TypeScript, a superset of JavaScript that provides syntactic sugar 
-    such as strong typing and object-oriented techniques.
+*   **Angular applications are written in TypeScript, a superset of JavaScript that provides syntactic sugar 
+    such as strong typing and object-oriented techniques.**
 
 *   Angular core functionality and optional functionality available as Typescript libraries. 
     Angular applications import these typescript libraries to use
@@ -58,7 +58,7 @@ OmShanthi                                                                       
 *   Components of an Angular application can be logically organized as a tree: Angular components can be visualized like below
 
         <p align="center">
-            	<img src="images/Angular_component_tree.JPG">
+            <img src="images/Angular_component_tree.PNG">
         </p>
 
 *   **  An Angular application typically has one main component, called AppComponent, by convention**   
