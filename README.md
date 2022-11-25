@@ -7,6 +7,7 @@ OmShanthi                                                                       
 * [Angular History](#angular-history)
 * [Angular Basics](#angular-basics)
 * [Angular Prerequisite](#angular-prerequisite)
+* [Angular CLI Reference](#angular-cli-reference)
 * [References](#references)
 
 
@@ -143,7 +144,9 @@ OmShanthi                                                                       
       *    Atom      
                     
 
-*    Below are Angular CLI options every developer should be aware of
+## Angular CLI Reference
+
+*   Below are Angular CLI options every developer should be aware of
 
        *   **serve:**       Build and serve an Angular application.
        *   **build:**       Build an Angular application.
@@ -151,9 +154,46 @@ OmShanthi                                                                       
        *   **generate:**    Generate a new Angular artifact, such as a component or module.
        *   **add:**         Install a third-party library that is compatible with the Angular framework.
        *   **new:**         Create a new Angular application.
-       *   **help:**        If you want to view all the available commands              
-              
+       *   **help:**        If you want to view all the available commands    
+       
+*   **ng new:** creates new Angular application with following features
 
+       *   Scaffolding the necessary folder structure of a typical Angular project
+       *   Installing the required npm dependencies and Angular packages
+       *   Initializing Git in the Angular CLI project                    
+    
+*   Creation of new Angular project might take some time, depending on the speed of the network
+
+*   **ng serve:** This will build the Angular application and start a built-in web server that we can use to preview it. 
+    The web server is started in watch mode; that is, it automatically rebuilds the Angular application whenever we make a change in the code.
+    
+*   The first time an Angular application is built, it takes a considerable amount of time to complete, so we must be patient.
+
+*   Open browser and navigate to **http://localhost:4200** to get a preview of your new Angular application
+
+*   The application source code resides inside the src/app folder
+
+*   Below is the typescript code of app component - app.component.ts
+
+     <p align="center">
+        <img src="images/app-component-ts-source-code.PNG">
+     </p>
+     
+*   The following properties characterize an Angular component:
+
+       *  **selector:** A unique name that is used to identify and declare the component inside HTML content. 
+                        It is used as an HTML tag, just like any native HTML element, such as <app-root></app-root>.
+                        
+       *  **templateUrl:** The path pointing to an HTML file that contains the HTML content of the component, which is called the template of the component.
+       
+       *  **styleUrls:**  A list of paths where each one points to a stylesheet file containing the CSS styles of the component.
+       
+*   The preceding properties are defined using the @Component decorator. It is a function that decorates the TypeScript class of the component and recognizes it as an Angular component. 
+    The title property of the AppComponent class is a public property that contains a string value and can be used in the template of the component.
+    
+                                               
+
+         
 
 ## References
 
