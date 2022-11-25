@@ -55,11 +55,17 @@ OmShanthi                                                                       
     *   A list of customers
     *   A list of claims
  
-*   Components of an Angular application can be logically organized as a tree:
+*   Components of an Angular application can be logically organized as a tree: Angular components can be visualized like below
 
-*   An Angular application typically has one main component, called AppComponent, by convention. 
+        <p align="center">
+            	<img src="images/Angular_component_tree.JPG">
+        </p>
+
+*   **  An Angular application typically has one main component, called AppComponent, by convention**   
 
 *   Each component in the tree can communicate and interact with its siblings using an application programming interface defined by each one.
+
+*   
 
 ## References
 
