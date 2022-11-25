@@ -6,6 +6,7 @@ OmShanthi                                                                       
 
 * [Angular History](#angular-history)
 * [Angular Basics](#angular-basics)
+* [Angular Prerequisite](#angular-prerequisite)
 * [References](#references)
 
 
@@ -65,8 +66,90 @@ OmShanthi                                                                       
 
 *   Each component in the tree can communicate and interact with its siblings using an application programming interface defined by each one.
 
-*   
+*   **Each component has an associated typescript class that is responsible for handing the business logic and template that represents the view layer**
+
+*   Multiple, closely related components can be stacked together to create a module
+
+ 
+
+## Angular Prerequisite
+
+
+*   To work with Angular applications you should install below list of software's in desktop
+
+       *    NodeJS and NPM
+       *    Yarn [Optional, but recommended]
+       *    Angular CLI
+       *    http-server [Optional, but recommended] 
+       *    git
+       *    IDE    
+
+*   Installation of NodeJS and NPM
+
+      *    Download and install Node.js from the official Node.js website, https://nodejs.org. Click the download link on the website. 
+           This site lists installers for long-term support (LTS) and the latest version. Preferably choose LTS.
+           Next select an option based on your operating system and platform. It will download the installer
+         
+      *    This installer installs Node.js and NPM. Current LTS of Node.js and NPM are 18.12.1 and NPM is 8.19.2
+      
+*   Installation of Yarn
+
+      *    While NPM is the default package manager with Node.js, Yarn is an open source project backed by Facebook. 
+      
+      *    It has received traction in the developer community due to its strengths in performance and security
+      
+      *    To install Yarn, run the following command:
+      
+      *    **npm install -g yarn**
+      
+      *    **Note:**   The option -g, which stands for “global.” The package is available across all the projects and the directories.
+                       Hence, it might need elevated permissions to run and install.On a Windows machine, run this command as an administrator.
+                       
+                       
+*   Installation of Angular CLI
+
+      *    While working with Angular applications, Angular CLI is a highly useful command-line tool. 
+      
+      *    You will be using this tool for all Angular-related tasks including creating projects, adding new Angular components, using Angular services, 
+           running the Angular application, doing build-related tasks, etc.
+                 
+      *    Install Angular CLI with the following command:
+      
+      *    **npm install -g @angular/cli      or      yarn global add @angular/cli**                                       
+                       
+      *    To verify the installation has been successful, run the below command 
+                                                    
+      *    ng  --version
+      
+
+*   Installation of Http-server
+
+      *    Http-server is a quick and efficient way to run a node.js based web server for static files
+      
+      *    During development, you will be using this NPM package for working with the cached application
+      
+      *    **yarn gloabl add http-server**
+      
+      *    To verify the installation has been successful, run the below command
+      
+      *    http-server --version
+      
+            
+*    Angular IDE tools are:
+
+      *    Microsoft visual studio code
+      *    Sublime text
+      *    Webstorm [form Intellij]
+      *    Atom      
+                    
+         
+              
+
 
 ## References
 
 *   Full Stack AngularJS for Java Developers: Build a Full-Featured Web Application from Scratch Using AngularJS with Spring RESTful    -   Ravi Kant Soni
+
+*   Angular official documentation  -   https://angular.io/docs
+
+*   Angular Projects - Second Edition   -   Aristeidis Bampakos, Mark Thompson
