@@ -9,8 +9,8 @@ OmShanthi                                                                       
 * [Angular Basics](#angular-basics)
 * [Angular Prerequisite](#angular-prerequisite)
 * [Angular CLI Reference](#angular-cli-reference)
+* [Angular Supported versions](#angular-supported-versions)
 * [References](#references)
-
 
 
 ## Angular History
@@ -200,7 +200,21 @@ OmShanthi                                                                       
 *   The preceding properties are defined using the @Component decorator. 
     It is a function that decorates the TypeScript class of the component and recognizes it as an Angular component. 
     The title property of the AppComponent class is a public property that contains a string value and can be used in the template of the component.
-    
+
+
+## Angular Supported versions
+
+*   Please see the list of supported Angular versions below.
+
+     <p align="center">
+        <img src="images/Angular_supported_versions.PNG">
+     </p>
+
+*   To go through the documentation of Angular for previous versions please refer Docs versions section in ->   angular.io/  
+
+     <p align="center">
+        <img src="images/Angular_Docs_versions_to_refer.PNG">
+     </p>
                                                
 ## References
 
