@@ -5,6 +5,7 @@ OmShanthi                                                                       
 ## Table of Contents
 
 * [Angular History](#angular-history)
+* [Why Angular became popular](#why-angular-became-popular)
 * [Angular Basics](#angular-basics)
 * [Angular Prerequisite](#angular-prerequisite)
 * [Angular CLI Reference](#angular-cli-reference)
@@ -26,31 +27,40 @@ OmShanthi                                                                       
     
     *   **For versions 2.0 and greater, it’s known as just Angular.** 
         Version 2.0 was a complete rewrite, and all versions after it are planned as incremental changes upon it.
+        
+*   **Angular applications are written in TypeScript, a superset of JavaScript that provides syntactic sugar 
+    such as strong typing and object-oriented techniques.**        
   
 *   Reference: Angular in Action    -   Jeremy Wilken      
 
 
+## Why Angular became popular
+
+*   **The popularity of the Angular framework is considerably reflected in its broad support of tooling**
+
+*   Angular platform has large community from famous companies like Google, Microsoft etc
+
+*   Due to Large community lot of online tutorials and support can be get for issues araised from Angular applications 
+
+
 ## Angular Basics
 
-*   **Angular is a platform and framework for building single page applications using HTML and TypeScript**
+*   **Angular started as web application framework and became as a platform for building single page applications using HTML,CSS and TypeScript**
 
-*   Angular can run on different platforms apart from web, such as Desktop and Mobile
+*   **Angular applications can run on different platforms apart from web, such as Desktop and Mobile**
 
-*   **Angular applications are written in TypeScript, a superset of JavaScript that provides syntactic sugar 
-    such as strong typing and object-oriented techniques.**
-
-*   Angular core functionality and optional functionality available as Typescript libraries. 
+*   **As Angular developed using Typescript so that Angular core functionality and optional functionality available as Typescript libraries.** 
     Angular applications import these typescript libraries to use
     
-*   Angular applications are created and developed using a command-line tool made by the Angular team called the Angular CLI. 
+*   **Angular applications are created and developed using a command-line tool made by the Angular team called the **Angular CLI**. 
     It automates many development tasks, such as scaffolding, testing, and deploying an Angular application, 
-    which would take a lot of time to configure manually.
-
-*   **The popularity of the Angular framework is considerably reflected in its broad support of tooling**    
+    which would take a lot of time to configure manually.**    
 
 *   **The architecture of an Angular application is based on a hierarchical representation of components**
 
-*   **Components are the fundamental building blocks of an Angular application.** They represent and control a particular portion of a web page called the view
+*   **Components are the fundamental building blocks of an Angular application.** 
+
+*   Components represent and control a particular portion of a web page called the view
 
 *   Some examples of components are as follows:
 
@@ -67,12 +77,11 @@ OmShanthi                                                                       
 
 *   Each component in the tree can communicate and interact with its siblings using an application programming interface defined by each one.
 
-*   **Each component has an associated typescript class that is responsible for handing the business logic and template that represents the view layer**
+*   **Each component has an associated typescript class that is responsible for handing the business logic and template that represents the view**
 
 *   Multiple, closely related components can be stacked together to create a module
 
  
-
 ## Angular Prerequisite
 
 
@@ -188,13 +197,11 @@ OmShanthi                                                                       
        
        *  **styleUrls:**  A list of paths where each one points to a stylesheet file containing the CSS styles of the component.
        
-*   The preceding properties are defined using the @Component decorator. It is a function that decorates the TypeScript class of the component and recognizes it as an Angular component. 
+*   The preceding properties are defined using the @Component decorator. 
+    It is a function that decorates the TypeScript class of the component and recognizes it as an Angular component. 
     The title property of the AppComponent class is a public property that contains a string value and can be used in the template of the component.
     
                                                
-
-         
-
 ## References
 
 *   Full Stack AngularJS for Java Developers: Build a Full-Featured Web Application from Scratch Using AngularJS with Spring RESTful    -   Ravi Kant Soni
