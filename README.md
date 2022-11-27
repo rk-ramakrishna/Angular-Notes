@@ -10,6 +10,7 @@ OmShanthi                                                                       
 * [Angular Prerequisite](#angular-prerequisite)
 * [Angular CLI Reference](#angular-cli-reference)
 * [Angular Supported versions](#angular-supported-versions)
+* [TypeScript Basics](#typescript-basics)
 * [References](#references)
 
 
@@ -101,6 +102,8 @@ OmShanthi                                                                       
            Next select an option based on your operating system and platform. It will download the installer
          
       *    This installer installs Node.js and NPM. Current LTS of Node.js and NPM are 18.12.1 and NPM is 8.19.2
+      
+      *    <u>NPM is integrated tools of NodeJS</u>
       
 *   Installation of Yarn
 
@@ -216,6 +219,46 @@ OmShanthi                                                                       
         <img src="images/Angular_Docs_versions_to_refer.PNG">
      </p>
                                                
+
+## TypeScript Basics
+
+*   TypeScript is a superset of Javascript
+
+*   TypeScript developed and maintained by Microsoft
+
+*   <u>**TypeScript is a strongly typed and Object Oriented programming language**</u>
+
+*   TypeScript introduced to develop the server side applications
+
+*   TypeScript used to develop the Angular and ReactJS based applications
+
+*   Web programming script languages HTML,HTML5 would not understand the TypeScript. So it must convert to JavaScript
+
+*   Converting TypeScript into Equivalent JavaScript called as "Transpilation"
+
+*   TSC is a tool used to perform Transpilation. TSC stands for TypeScript compiler
+
+*   Following are data types in typescript are
+
+       *    number
+       *    String
+       *    boolean
+       *    any
+       *    enum
+
+*   Following is the way to define the variables in Typescript
+
+    *   var x:number=123
+    *   var s:String="data"
+    *   var b:boolean= "true"
+    *   var a:any="Ireland"
+    *   var e={Male,Female}
+    
+*   Please refer typescript variables examples in path - applications\TypeScript\VariablesExample\variables.ts
+
+
+
+
 ## References
 
 *   Full Stack AngularJS for Java Developers: Build a Full-Featured Web Application from Scratch Using AngularJS with Spring RESTful    -   Ravi Kant Soni
@@ -223,3 +266,10 @@ OmShanthi                                                                       
 *   Angular official documentation  -   https://angular.io/docs
 
 *   Angular Projects - Second Edition   -   Aristeidis Bampakos, Mark Thompson
+
+*   Naresh Angular 2.x topics   -   https://nareshit.in/angular-8-training/
+
+*   TypeScript for Beginners    -   Bharath Thippireddy
+
+*   Creating a Simple Angular App (Angular for Java Developers - Part 1)    -   Matt Greencroft
+
